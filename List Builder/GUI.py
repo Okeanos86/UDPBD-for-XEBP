@@ -89,12 +89,14 @@ r1 = ttk.Radiobutton(radioFrame, text='PS2 HDD', value='-h', variable=selected, 
 r2 = ttk.Radiobutton(radioFrame, text='MX4SIO', value='-m', variable=selected, command=enable_build)
 r3 = ttk.Radiobutton(radioFrame, text='MMCE', value='-c', variable=selected, command=enable_build)
 r4 = ttk.Radiobutton(radioFrame, text='USB Drive', value='-u', variable=selected, command=enable_build)
-r5 = ttk.Radiobutton(radioFrame, text='iLink', value='-i', variable=selected, command=enable_build)
+r5 = ttk.Radiobutton(radioFrame, text='UDPBD', value='-b', variable=selected, command=enable_build)
+r6 = ttk.Radiobutton(radioFrame, text='iLink', value='-i', variable=selected, command=enable_build)
 r1.grid(padx=5, pady=5, row=0, column=1)
 r2.grid(padx=5, pady=5, row=0, column=2)
 r3.grid(padx=5, pady=5, row=0, column=3)
 r4.grid(padx=5, pady=5, row=0, column=4)
 r5.grid(padx=5, pady=5, row=0, column=5)
+r6.grid(padx=5, pady=5, row=0, column=6)
 
 # Define directory and run buttons
 directoryFrame1 = LabelFrame(root, text=' Games Location ')
